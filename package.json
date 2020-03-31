@@ -16,7 +16,7 @@
     "constructive"
   ],
   "author": "Constructive",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/constructive/type-preset-tailwind-plugin/issues"
   },
