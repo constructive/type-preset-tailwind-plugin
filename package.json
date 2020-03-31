@@ -1,0 +1,30 @@
+{
+  "name": "type-preset-tailwind-plugin",
+  "version": "1.0.0",
+  "description": "Tailwind Plugin for creating Constructive Type Presets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/constructive/type-preset-tailwind-plugin.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "typography",
+    "constructive"
+  ],
+  "author": "Constructive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/constructive/type-preset-tailwind-plugin/issues"
+  },
+  "homepage": "https://github.com/constructive/type-preset-tailwind-plugin#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.2.0"
+  }
+}
