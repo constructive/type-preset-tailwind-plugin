@@ -15,7 +15,7 @@ module.exports = plugin(function({ addComponents, theme }) {
                 fontSize: `calc(1rem${_.repeat(` ${preset.power >= 0 ? '*' : '/'} ${scale}`, Math.abs(preset.power))})`,
                 lineHeight: preset.lineHeight
             }
-            addComponents(component)
+            addComponents({'@variants responsive': component})
         })
     }))
 })
