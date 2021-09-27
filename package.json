@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/constructive/type-preset-tailwind-plugin#readme",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "tailwindcss": "^1.2.0"
