@@ -31,8 +31,8 @@ module.exports = plugin(function({ addComponents, theme }) {
                     }
                   }
                 }
-                addComponents({'@variants responsive': component})
               })
+              addComponents({'@variants responsive': component})
             }
 
             if (! isObject(scale))
