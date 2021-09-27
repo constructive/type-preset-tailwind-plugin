@@ -1,4 +1,4 @@
-# type-preset-tailwind-plugin (v1.2)
+# type-preset-tailwind-plugin (v1.2.1)
 Tailwind Plugin for creating Constructive Type Presets
 
 ## Getting Started
