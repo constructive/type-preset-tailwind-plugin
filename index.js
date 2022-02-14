@@ -32,7 +32,7 @@ module.exports = plugin(function({ addComponents, theme }) {
                   }
                 }
               })
-              addComponents({'@variants responsive': component})
+              addComponents(component)
             }
 
             if (! isObject(scale))
@@ -43,7 +43,7 @@ module.exports = plugin(function({ addComponents, theme }) {
                 fontSize: `var(--scale)`,
                 lineHeight: preset.lineHeight
               }
-              addComponents({'@variants responsive': component})
+              addComponents(component)
             }
 
             function calculateScale (scale, power)
